@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(214, 222, 224);
+}
+#container {
+  text-align: center;
+}
+
+#canvas {
+  position: relative;
+  border: 5px solid lighten($color: rgb(123, 118, 133), $amount: 0);
+  background: white;
+}
+
+#startButton {
+  position: relative;
+  left: calc(50% - 100px);
+  width: 200px;
+  text-align: center;
+  
+}
+
+#resetButton {
+  position: relative;
+  left: calc(50% - 100px);
+  width: 200px;
+  text-align: center;
+  display: none;
+}
+
+#score {
+  position: absolute;
+  left: 10%;
+  top: 25%;
+  
+  //text-align: center;
+}
+
+#gameOverText {
+  display: none;
+  position: absolute;
+  left: 100px;
+  top: 150px;
+  font-size: 100px;
+}
+
+#instructions {
+  position: absolute;
+  left: 70%;
+  top:10%
+}
